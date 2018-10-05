@@ -10,7 +10,7 @@ class HashMap
   end
 
   def include?(key)
-    return false if get(key).nil?
+    return false if self[key].nil?
     true
   end
 
