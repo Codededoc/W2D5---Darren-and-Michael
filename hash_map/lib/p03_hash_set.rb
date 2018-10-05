@@ -26,7 +26,7 @@ class HashSet
   private
 
   def [](num)
-    index = num.hash & num_buckets
+    index = num.hash % num_buckets
     self.store[index]
     # optional but useful; return the bucket corresponding to `num`
   end
