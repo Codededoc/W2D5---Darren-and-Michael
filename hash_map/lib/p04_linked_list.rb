@@ -110,7 +110,6 @@ class LinkedList
 
   end
 
-
   def each(&prc)
     current_node = first
     until current_node == self.tail
